@@ -1,0 +1,23 @@
+main: com.ethan.plugins.Main
+name: MySQL Server Plugin
+version: 1.0
+author: Ethan Chaplin
+description: A plugin that can connect to MySQL servers and access and manipulate the data.
+commands: 
+  connect:
+    description: Connects to the specified server with username and password
+    
+  create:
+    description: Creates a table with specified arguments
+    
+  setvalue:
+    description: Inserts a value into the specified table
+    
+  readtable:
+    description: Reads a table and prints out the data in chat.
+    
+permissions: 
+  sqlpermission:
+    description: Allows person to access full commands of the MySQL plugin.
+    default: op
+    
